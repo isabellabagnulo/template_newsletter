@@ -114,6 +114,7 @@ footer a{
   text-decoration: underline;
 }
 
+  /* TABLET */
 @media(min-width: 700px){
   h1{
     font-size: 3rem;
@@ -131,22 +132,20 @@ footer a{
     font-size: 2rem;
   }
   section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-  }
-  section.section-right{
-    flex-direction: row-reverse;
+    column-gap: 50px;
   }
   section.section-right .section-content{
-    padding-left: 50px;
+    grid-area: 1 / 2 / 2 / 3;
   }
-  section.section-left .section-content{
-    padding-right: 50px;
+  section.section-right .section-image{
+    grid-area: 1 / 1 / 2 / 2;
   }
-
-  /* FOOTER */
 }
 
+  /* DESKTOP */
 @media(min-width: 1000px){
   h1{
     font-size: 4rem;
@@ -172,11 +171,8 @@ footer a{
   main .button{
     margin: 40px 0 ;
   }
-  section.section-right .section-content{
-    padding-left: 100px;
-  }
-  section.section-left .section-content{
-    padding-right: 100px;
+  section{
+    column-gap: 100px;
   }
 
   /* FOOTER */
