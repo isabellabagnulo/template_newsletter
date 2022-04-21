@@ -114,6 +114,19 @@
         main .button p{
             padding: 0;
         }
+        main .section-image{
+            display: flex;
+            flex-direction: column;
+        }
+        main .section-image .img-strutture{
+            padding: 40px 0 20px 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        main .section-image .img-strutture img{
+            padding-top: 0;
+        }
         main .section-image img{
         padding-top: 30px;
         }
@@ -126,7 +139,7 @@
         main .quote img{
             width: 100px;
             height: 100px;
-            margin-right: 20px;
+            margin-right: 30px;
         }
 
         /* FOOTER */
@@ -176,7 +189,7 @@
         section.section-right, section.section-left{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            align-items: center;
+            align-items: stretch;
             column-gap: 50px;
         }
         section.section-right .section-content{
@@ -267,7 +280,15 @@
                 </div>
                 <p>Struttura medica polispecialistica privata nel cuore di Milano, il <a target="blank" class="link" href="https://www.cmvm.com/chi-siamo/">Centro Medico Visconti di Modrone</a> offre dal 1980 una completa gamma di prestazioni ambulatoriali e di diagnostica per immagini, dai check-up ai prelievi di sangue agli esami TAC alle visite specialistiche, puntando al miglior connubio tra un’alta qualità dei professionisti medici ed un’elevata attenzione all’accoglienza e all’accessibilità per tutte le persone che vi si rivolgono. Il Centro si avvale di oltre 130 collaboratori tra medici specialisti, tecnici sanitari, infermieri ed impiegati che ogni anno dedicano il proprio tempo alla prevenzione, diagnosi e cura di circa 40.000 pazienti.</p>
             </div>
-            <div class="section-image"><img src="img/lombardia.png" alt=""></div>
+            <div class="section-image">
+                <img src="img/lombardia.png" alt="">
+                <div class="img-strutture">
+                    <img src="img/eyecare1.jpg" alt="">
+                    <img src="img/eyecare2.jpg" alt="">
+                    <img src="img/cvcm1.jpg" alt="">
+                    <img src="img/cvcm2.jpg" alt="">
+                </div>
+            </div>
         </section>
 
         <section class="section-left">
@@ -280,7 +301,13 @@
                 <p>Da oltre 70 anni <a target="blank" class="link" href="https://www.cemedi.it/cemedi-centro-medico-diagnostico/">CeMeDi</a> è un punto di riferimento per l’assistenza sanitaria a Torino per tutti i pazienti e per coloro che lavorano o hanno lavorato all’interno dei Gruppi Fiat Chrysler Automobiles e CNH Industrial e i loro famigliari. Entrato a far parte del gruppo Lifenet Healthcare nel giugno 2019,  il CeMeDi è un centro privato ambulatoriale specialistico e diagnostico che conta 220 professionisti tra medici, tecnici sanitari e infermieri. Fornisce servizi sanitari all’avanguardia: dalla radiodiagnostica agli esami di laboratorio, dalla fisioterapia all’odontoiatria, puntando su multidisciplinarietà, accoglienza e migliori tecnologie. Nel 2020, grazie all’esperienza del Direttore Sanitario Dr. Carlo Gulotta, pneumologo di fama nazionale, è stato progettato e messo in funzione un ambulatorio di pneumologia avanzata. Nel 2022 sarà in funzione la sezione chirurgica di cui avremo modo di illustrare le caratteristiche prossimamente.</p>
                 <p>Ultima acquisizione di Lifenet Healthcare, il <a target="blank" class="link" href="https://www.chiros.it/il-centro/">Centro Medico Chiros</a> è un centro di fisioterapia e diagnostica accreditato con il SSN in fascia A e convenzionato con fondi integrativi e assicurazioni.  La struttura è presente nel centro di Torino da più di 50 anni e vanta una tradizione di elevata qualità delle prestazioni cliniche, come eredità dei soci fondatori, medici ed esperti di sanità che hanno voluto trasferire in questo centro le loro competenze specialistiche. Le aree cliniche più importanti sono presenti nel centro accanto ad aree specialistiche focalizzate in alcune tipologie di settore come ad esempio il centro per la diagnosi e la cura della patologia della tiroide, e ovviamente tutto l’ambito delle cure fisioterapiche che vedono l’interazione tra l’inquadramento medico e le aree specialistiche di terapia manuale, assistita da apparecchiature e da sistemi laser di ultima generazione.</p>
             </div>
-            <div class="section-image"><img src="img/piemonte.png" alt=""></div>
+            <div class="section-image">
+                <img src="img/piemonte.png" alt="">
+                <div class="img-strutture">
+                    <img src="img/cemedi1.jpg" alt="">
+                    <img src="img/cemedi2.jpg" alt="">
+                </div>
+            </div>
         </section>
 
         <section class="section-right">
